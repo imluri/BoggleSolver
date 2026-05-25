@@ -2,7 +2,7 @@
 
 A desktop Boggle solver with OCR grid capture and an auto-play mouse driver for Roblox (or any Boggle-style game).
 
-![screenshot](https://i.imgur.com/placeholder.png)
+![screenshot](screenshot.png)
 
 ## Features
 
@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ## Usage
 
 ```bat
-python boggle.py
+python boggle_solver.py
 ```
 
 ### Solving a board manually
