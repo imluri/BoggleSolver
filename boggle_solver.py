@@ -105,6 +105,7 @@ class Api:
     def close(self):
         if self._win:
             self._win.destroy()
+        os._exit(0)
 
     # ── Calibration & auto-play ───────────────────────────────────────────────
     def start_calibrate(self):
