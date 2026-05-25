@@ -10,6 +10,7 @@ pydirectinput.PAUSE    = 0      # we own all timing
 pydirectinput.FAILSAFE = False  # don't raise on corner moves
 
 # ── EasyOCR (loaded once, reused) ────────────────────────────────────────────
+print('Initialising OCR...')
 try:
     import easyocr
     _reader = easyocr.Reader(['en'], gpu=True, verbose=False)
